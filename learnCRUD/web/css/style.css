@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.access-form{
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.access-form h1{
+    font-size: 30px;
+    color: rgb(41, 79, 217);
+    margin: 20px 0;
+}
+.access-form input{
+    margin: 5px;
+    font-size: 20px;
+}
+.access-form .access-form-btn{
+    width: 100px;
+    color: white;
+    background-color: blue;
+    border: none;
+}
+.access-form .access-form-btn.login-btn{
+    background-color: blue;
+}
+.access-form .access-form-btn.reset-btn{
+    background-color: green;
+}
+
+.invalid-head{
+    color: red;
+    font-size: 30px;
+}
